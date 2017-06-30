@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A82A5481D921A67008FE4C1"
+               BlueprintIdentifier = "0A1914DE1F05F20D00709A0C"
                BuildableName = "Temp2.app"
                BlueprintName = "Temp2"
                ReferencedContainer = "container:Temp2.xcodeproj">
@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A82A5611D921A68008FE4C1"
+               BlueprintIdentifier = "0A1914F71F05F20E00709A0C"
                BuildableName = "Temp2Tests.xctest"
                BlueprintName = "Temp2Tests"
-               ReferencedContainer = "container:Temp2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A82A56C1D921A68008FE4C1"
-               BuildableName = "Temp2UITests.xctest"
-               BlueprintName = "Temp2UITests"
                ReferencedContainer = "container:Temp2.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A82A5481D921A67008FE4C1"
+            BlueprintIdentifier = "0A1914DE1F05F20D00709A0C"
             BuildableName = "Temp2.app"
             BlueprintName = "Temp2"
             ReferencedContainer = "container:Temp2.xcodeproj">
@@ -75,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A82A5481D921A67008FE4C1"
+            BlueprintIdentifier = "0A1914DE1F05F20D00709A0C"
             BuildableName = "Temp2.app"
             BlueprintName = "Temp2"
             ReferencedContainer = "container:Temp2.xcodeproj">
@@ -94,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A82A5481D921A67008FE4C1"
+            BlueprintIdentifier = "0A1914DE1F05F20D00709A0C"
             BuildableName = "Temp2.app"
             BlueprintName = "Temp2"
             ReferencedContainer = "container:Temp2.xcodeproj">

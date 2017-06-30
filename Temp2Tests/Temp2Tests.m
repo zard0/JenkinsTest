@@ -2,8 +2,8 @@
 //  Temp2Tests.m
 //  Temp2Tests
 //
-//  Created by linkunzhu on 16/9/21.
-//  Copyright © 2016年 linkunzhu. All rights reserved.
+//  Created by linkunzhu on 2017/6/30.
+//  Copyright © 2017年 linkunzhu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
