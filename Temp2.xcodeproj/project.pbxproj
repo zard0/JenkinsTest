@@ -15,6 +15,8 @@
 		0A1914F21F05F20E00709A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1914F01F05F20E00709A0C /* LaunchScreen.storyboard */; };
 		0A1914FD1F05F20E00709A0C /* Temp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1914FC1F05F20E00709A0C /* Temp2Tests.m */; };
 		0A19150D1F06036900709A0C /* YTLayoutRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19150C1F06036900709A0C /* YTLayoutRule.m */; };
+		0A1915101F062F3100709A0C /* MyComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19150F1F062F3100709A0C /* MyComponent.m */; };
+		0A1915121F0630D200709A0C /* MyComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1915111F0630D200709A0C /* MyComponentTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		0A1914FE1F05F20E00709A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A19150B1F06036900709A0C /* YTLayoutRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLayoutRule.h; sourceTree = "<group>"; };
 		0A19150C1F06036900709A0C /* YTLayoutRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLayoutRule.m; sourceTree = "<group>"; };
+		0A19150E1F062F3100709A0C /* MyComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyComponent.h; sourceTree = "<group>"; };
+		0A19150F1F062F3100709A0C /* MyComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyComponent.m; sourceTree = "<group>"; };
+		0A1915111F0630D200709A0C /* MyComponentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyComponentTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,7 @@
 			children = (
 				0A1914FC1F05F20E00709A0C /* Temp2Tests.m */,
 				0A1914FE1F05F20E00709A0C /* Info.plist */,
+				0A1915111F0630D200709A0C /* MyComponentTests.m */,
 			);
 			path = Temp2Tests;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			children = (
 				0A19150B1F06036900709A0C /* YTLayoutRule.h */,
 				0A19150C1F06036900709A0C /* YTLayoutRule.m */,
+				0A19150E1F062F3100709A0C /* MyComponent.h */,
+				0A19150F1F062F3100709A0C /* MyComponent.m */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1915101F062F3100709A0C /* MyComponent.m in Sources */,
 				0A19150D1F06036900709A0C /* YTLayoutRule.m in Sources */,
 				0A1914EA1F05F20D00709A0C /* ViewController.m in Sources */,
 				0A1914E71F05F20D00709A0C /* AppDelegate.m in Sources */,
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A1914FD1F05F20E00709A0C /* Temp2Tests.m in Sources */,
+				0A1915121F0630D200709A0C /* MyComponentTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
