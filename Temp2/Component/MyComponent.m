@@ -11,11 +11,11 @@
 @implementation MyComponent
 
 - (NSInteger)sayHello{
-    NSLog(@"Hello....");
+    NSLog(@"Hello..。..");
     return 1;
 }
 - (NSInteger)sayGoodbye{
-    NSLog(@"Goodbye...");
+    NSLog(@"Goodbye.。..");
     return 0;
 }
 
