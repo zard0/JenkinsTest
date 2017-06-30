@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1914D21F05EA9400709A0C /* YTLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1914D11F05EA9400709A0C /* YTLayoutItem.m */; };
 		0A82A54E1D921A67008FE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A82A54D1D921A67008FE4C1 /* main.m */; };
 		0A82A5511D921A67008FE4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A82A5501D921A67008FE4C1 /* AppDelegate.m */; };
 		0A82A5541D921A67008FE4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A82A5531D921A67008FE4C1 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1914D01F05EA9400709A0C /* YTLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLayoutItem.h; sourceTree = "<group>"; };
+		0A1914D11F05EA9400709A0C /* YTLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLayoutItem.m; sourceTree = "<group>"; };
 		0A82A5491D921A67008FE4C1 /* Temp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A82A54D1D921A67008FE4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A82A54F1D921A67008FE4C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 		0A82A54B1D921A67008FE4C1 /* Temp2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A1914D01F05EA9400709A0C /* YTLayoutItem.h */,
+				0A1914D11F05EA9400709A0C /* YTLayoutItem.m */,
 				0A82A54F1D921A67008FE4C1 /* AppDelegate.h */,
 				0A82A5501D921A67008FE4C1 /* AppDelegate.m */,
 				0A82A5521D921A67008FE4C1 /* ViewController.h */,
@@ -354,6 +359,7 @@
 				0A82A5541D921A67008FE4C1 /* ViewController.m in Sources */,
 				0A82A5511D921A67008FE4C1 /* AppDelegate.m in Sources */,
 				0A82A54E1D921A67008FE4C1 /* main.m in Sources */,
+				0A1914D21F05EA9400709A0C /* YTLayoutItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
