@@ -10,4 +10,8 @@
 
 @implementation YTLayoutRule
 
+- (NSInteger)goodJob{
+    return 1;
+}
+
 @end

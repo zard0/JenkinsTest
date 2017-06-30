@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "YTLayoutRule.h"
 
 @interface Temp2Tests : XCTestCase
 
@@ -24,9 +25,16 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testGoodJobShoudEqual1 {
+    YTLayoutRule *rule = [[YTLayoutRule alloc] init];
+    NSInteger result = [rule goodJob];
+    XCTAssertEqual(result, 1,@"GoodJob method should equal 1");
+}
+
+- (void)testGoodJobShoudNotEqual0 {
+    YTLayoutRule *rule = [[YTLayoutRule alloc] init];
+    NSInteger result = [rule goodJob];
+    XCTAssertFalse(result, @"GoodJob method should not equal 0");
 }
 
 - (void)testPerformanceExample {

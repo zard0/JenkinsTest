@@ -14,6 +14,7 @@
 		0A1914EF1F05F20E00709A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1914EE1F05F20E00709A0C /* Assets.xcassets */; };
 		0A1914F21F05F20E00709A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1914F01F05F20E00709A0C /* LaunchScreen.storyboard */; };
 		0A1914FD1F05F20E00709A0C /* Temp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1914FC1F05F20E00709A0C /* Temp2Tests.m */; };
+		0A19150D1F06036900709A0C /* YTLayoutRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19150C1F06036900709A0C /* YTLayoutRule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0A1914F81F05F20E00709A0C /* Temp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Temp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1914FC1F05F20E00709A0C /* Temp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temp2Tests.m; sourceTree = "<group>"; };
 		0A1914FE1F05F20E00709A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A19150B1F06036900709A0C /* YTLayoutRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTLayoutRule.h; sourceTree = "<group>"; };
+		0A19150C1F06036900709A0C /* YTLayoutRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTLayoutRule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		0A1914E11F05F20D00709A0C /* Temp2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A19150A1F06036900709A0C /* Component */,
 				0A1914E51F05F20D00709A0C /* AppDelegate.h */,
 				0A1914E61F05F20D00709A0C /* AppDelegate.m */,
 				0A1914E81F05F20D00709A0C /* ViewController.h */,
@@ -109,6 +113,15 @@
 				0A1914FE1F05F20E00709A0C /* Info.plist */,
 			);
 			path = Temp2Tests;
+			sourceTree = "<group>";
+		};
+		0A19150A1F06036900709A0C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0A19150B1F06036900709A0C /* YTLayoutRule.h */,
+				0A19150C1F06036900709A0C /* YTLayoutRule.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A19150D1F06036900709A0C /* YTLayoutRule.m in Sources */,
 				0A1914EA1F05F20D00709A0C /* ViewController.m in Sources */,
 				0A1914E71F05F20D00709A0C /* AppDelegate.m in Sources */,
 				0A1914E41F05F20D00709A0C /* main.m in Sources */,

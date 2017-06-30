@@ -10,4 +10,6 @@
 
 @interface YTLayoutRule : NSObject
 
+- (NSInteger)goodJob;
+
 @end
