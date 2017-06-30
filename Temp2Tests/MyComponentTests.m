@@ -42,4 +42,19 @@
     XCTAssertEqual(result, 1, @"testSayWordsWithType方法应该返回1");
 }
 
+- (void)testSayWordsWithType1ShouldReturn2{
+    NSInteger result = [self.component sayWordsWithType:2];
+    XCTAssertEqual(result, 2, @"testSayWordsWithType方法应该返回2");
+}
+
+- (void)testSayWordsWithType1ShouldReturn3{
+    NSInteger result = [self.component sayWordsWithType:3];
+    XCTAssertEqual(result, 3, @"testSayWordsWithType方法应该返回3");
+}
+
+- (void)testSayWordsWithType1ShouldReturn0{
+    NSInteger result = [self.component sayWordsWithType:5];
+    XCTAssertEqual(result, 0, @"testSayWordsWithType方法应该返回0");
+}
+
 @end

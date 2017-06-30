@@ -14,7 +14,7 @@
 - (NSInteger)sayGoodbye;
 
 /**
- type:1,2,3,4,other
+ type:1,2,3,other
 
  @param type <#type description#>
  */

@@ -20,7 +20,7 @@
 }
 
 /**
- type:1,2,3,4,other
+ type:1,2,3,other
  
  @param type <#type description#>
  */
@@ -29,23 +29,15 @@
         case 1:
             NSLog(@"Good day!");
             return 1;
-            break;
         case 2:
             NSLog(@"Good morning!");
             return 2;
-            break;
         case 3:
             NSLog(@"Good afternoon!");
             return 3;
-            break;
-        case 4:
-            NSLog(@"Good night!");
-            return 4;
-            break;
         default:
             NSLog(@"Wrong option!");
             return 0;
-            break;
     }
 }
 
